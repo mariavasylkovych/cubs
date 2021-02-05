@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
 }
+
 .cubs .cub .c {
     display: flex;
     align-items: center;
@@ -26,7 +27,8 @@
 .cubs_circles {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 100px;
 }
 
 .cubs_circles div{
