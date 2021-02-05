@@ -13,6 +13,9 @@
     justify-content: center;
 }
 .cubs .cub .c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 6px solid black;
     border-radius: 20%;
     width: 105px;
@@ -20,16 +23,10 @@
     margin: 15px;
 }
 
-.cub1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.cub2 {
+.cubs_circles {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cubs_circles div{
@@ -40,68 +37,6 @@
     height: 20px;
 }
 
-.cub3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cub3_circles1  div{
-    margin: 10px;
-}
-
-.cub3_circles1  div:first-child {
-    margin-bottom: 30px;
-}
-
-.cub3_circles3  div { 
-    margin: 10px;
-}
-
-.cub3_circles3  div:first-child {
-    margin-bottom: 30px;
-}
-
-.cub4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .circle1 {
-    margin: 0 0 50px 15px;
+    transform: rotate(-45deg);
 }
-
-.circle3 {
-    margin: 50px 15px 0 0;
-}
-
-.cub5 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.cub5_circles1 div {
-    margin:15px
-}
-
-.cub5_circles1 div:first-child {
-    margin-bottom: 30px;
-}
-
-.cub5_circles2 div {
-    margin: 15px;
-}
-
-.cub5_circles2 div:first-child {
-    margin-bottom: 30px;
-}
-
-.cub6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
